@@ -1,0 +1,32 @@
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\bin\Debug\bloqueador.exe.config
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\bin\Debug\bloqueador.exe
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\bin\Debug\bloqueador.pdb
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\bin\Debug\bloqueador.xml
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\obj\Debug\bloqueador.Form1.resources
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\obj\Debug\bloqueador.Resources.resources
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\obj\Debug\bloqueador.vbproj.GenerateResource.Cache
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\obj\Debug\bloqueador.exe
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\obj\Debug\bloqueador.xml
+C:\Users\Quintero G\AppData\Local\Temporary Projects\bloqueador\obj\Debug\bloqueador.pdb
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\bin\Debug\bloqueador.exe.config
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\obj\Debug\bloqueador.exe
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\obj\Debug\bloqueador.xml
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\obj\Debug\bloqueador.pdb
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\bin\Debug\bloqueador.exe
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\bin\Debug\bloqueador.pdb
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\bin\Debug\bloqueador.xml
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\obj\Debug\bloqueador.Form1.resources
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\obj\Debug\bloqueador.Resources.resources
+C:\Users\Quintero G\Documents\Visual Studio 2012\Projects\bloqueador\bloqueador\obj\Debug\bloqueador.vbproj.GenerateResource.Cache
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\bin\Debug\bloqueador.exe.config
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\bloqueador.exe
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\bloqueador.xml
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\bloqueador.pdb
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\bin\Debug\bloqueador.exe
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\bin\Debug\bloqueador.pdb
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\bin\Debug\bloqueador.xml
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\bloqueador.Form1.resources
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\bloqueador.Resources.resources
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\FRANCO\Desktop\bloqueador\bloqueador\obj\Debug\GenerateResource.write.1.tlog
