@@ -1,0 +1,1 @@
+sc create HideDriver.sys binpath= %~dp0HideDriver.sys type= kernel

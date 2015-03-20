@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.0" name="keylogger.exe" publicKeyToken="fd6fb04680a59709" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="keylogger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="keylogger.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="keylogger.exe" size="55808">
+      <assemblyIdentity name="keylogger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>axBF+ryphKLEisUu0HRuZLdN+GA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="keylogger.exe.config" size="166">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fGI4dzPQ+WxQxC4MD8DJrBfiqN0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=HPCOMPUFAST\Administrador" issuerKeyHash="5d2e27077d66d78a34ad3b85d431b722d4ad90b4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5hq0JOJdG8Q37m8jwbRy4pOSuNA=</DigestValue></Reference></SignedInfo><SignatureValue>hRY9WEDmru4Av74IUtFk91Lx+bNOiQex2JahoMjk6OXGvYYflPyLyD4mWRiZ3nj3Jkouwx7qhi2nKH0Ykxki+mCvHPQSKKHHMeCPzyzkUijHvU25CQDdJFyWmnTcqcGIYKSTNdwbCiGGLhTB2yWmNFi3lH6Sa5dDNAxgcQ+9i+Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u7M1tMtiMfcs0mSe0nn9JXQ5r4YuMPYNJl4YUi7+KZEqQr5Q+ed2s/Rk4JXOQSYBuw1uAnTi5NB10LvX6ICQ++z0opswOOe7P14Yy0IviOQaZCjfq9dNL2FDCZuwDdBk4lPxAOLzdnRV3pYJLPZClERGKmitmyu3OqhQEdHnRPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d0b89293e272b4c1236fee37c41b5de224b41ae6" Description="" Url=""><as:assemblyIdentity version="1.0.0.0" name="keylogger.exe" publicKeyToken="fd6fb04680a59709" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HPCOMPUFAST\Administrador</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>juCYoPhIazIEyhLtpgoZLQ+r/pw=</DigestValue></Reference></SignedInfo><SignatureValue>exN2GhJFgrm0NSnhylunpDZ+lw0HhdYlp2KBWdB7/zwhsRsSg0QaAB9Vxexy0Aa8i2fN7TX61rPl/I2AoS+6VPoACF5e1+3m1aEMQnjC85otezXyaEUsLPV/VFkRpNG+uvZUINK3e2HvmFa6gCJi6Ii8bFjz5tLpdV8CewoYwME=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u7M1tMtiMfcs0mSe0nn9JXQ5r4YuMPYNJl4YUi7+KZEqQr5Q+ed2s/Rk4JXOQSYBuw1uAnTi5NB10LvX6ICQ++z0opswOOe7P14Yy0IviOQaZCjfq9dNL2FDCZuwDdBk4lPxAOLzdnRV3pYJLPZClERGKmitmyu3OqhQEdHnRPM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQFLrcdlgT/a9KnoTaYW5/vDANBgkqhkiG9w0BAQUFADA9MTswOQYDVQQDHjIASABQAEMATwBNAFAAVQBGAEEAUwBUAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQBkAG8AcjAeFw0xNTAzMTgwNTI4MDJaFw0xNjAzMTcxMTI4MDJaMD0xOzA5BgNVBAMeMgBIAFAAQwBPAE0AUABVAEYAQQBTAFQAXABBAGQAbQBpAG4AaQBzAHQAcgBhAGQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7szW0y2Ix9yzSZJ7Sef0ldDmvhi4w9g0mXhhSLv4pkSpCvlD553az9GTglc5BJgG7DW4CdOLk0HXQu9fogJD77PSimzA457s/XhjLQi+I5BpkKN+r100vYUMJm7AN0GTiU/EA4vN2dFXelgks9kKUREYqaK2bK7c6qFAR0edE8wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAG07EZpOngi4h4Hm/oFVzv3NjEetqmsijPQn7FlBpTjCSI/45wiNCqprCTSg0eVQLnUMKM9RSpizbtZi7+uoL1i41Lg62TesstAK8ranEOBwsJsRXbVlTYx6NtCLryAZ42EJ4bCUSP77FK9jvObNfpDKaYhwukZQd+w8e4qPvW6N</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
